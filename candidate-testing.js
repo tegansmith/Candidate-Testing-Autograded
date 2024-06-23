@@ -7,7 +7,7 @@ let candidateName = '';
 // TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
 let question = 'What is your name?: ';
 let correctAnswer = 'enter name';
-let candidateAnswer = 'their name';
+let candidateAnswer = 'Your answer: ';
 
 
 //TODO: Variables for Part 2
