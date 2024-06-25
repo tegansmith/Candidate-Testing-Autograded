@@ -30,7 +30,11 @@ function gradeQuiz(candidateAnswers) {
 
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
 
-
+if (candidateAnswer === correctAnswer) {
+    console.log("Correct answer");
+} else {
+  console.log("Incorrect answer")
+}
 
   let grade;  //TODO 3.2 use this variable to calculate the candidates score.
 
