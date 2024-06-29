@@ -53,7 +53,7 @@ console.log(`Your grade is ${grade}%`);
 function runProgram() {
   askForName();
   // TODO 1.1c: Greet candidate using their name //
-   console.log("Hello " + candidateName + ". Welcome to the quiz, it will consist of 5 questions and your result will be provided at the end. Good Luck!");
+   console.log("Hello " + candidateName + ". Welcome to the quiz, it will consist of 5 questions and your results will be provided at the end. You need to score 80% or more to pass the test Good Luck!");
   askQuestion();
   gradeQuiz(this.candidateAnswers);
 }
